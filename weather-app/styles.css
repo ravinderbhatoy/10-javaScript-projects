@@ -1,0 +1,123 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins";
+  display: flex;
+  margin: 0;
+  justify-content: center;
+  min-height: 100vh;
+  color: #eee;
+  padding: 0;
+  background: url("img/weather-app.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+main {
+  width: 550px;
+  height: 100%;
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.weather-condition{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* .weather-condition p{
+  text-align: center;
+  padding-top: 10px;
+  padding-right: 5px;
+} */
+
+.background-container img{
+  display: inline;
+  height: 50px;
+}
+
+hr{
+  background-color: #fff;
+  height: 3px;
+  opacity: 0.5;
+}
+
+input {
+  padding-top: 1rem;
+  width: 100%;
+  font-size: 2rem;
+  background: none;
+  border: none; 
+  color: #eee;
+  outline: none;
+}
+
+input::placeholder{
+  opacity: 0.3;
+  color: #eee;
+}
+
+h1{
+  margin: 0;
+  padding: 0;
+}
+
+.search-container{
+  width: 100%;
+}
+
+.background-container{
+  width: 100%;
+}
+
+.current-weather{
+  padding-top: 2rem;
+}
+
+.current-weather p{
+  margin-top: 0;
+  font-size: 20px;
+}
+
+.address {
+  font-weight: bold ;
+}
+
+.description{
+  text-align: center;
+  margin: auto;
+  max-width: 300px;
+}
+
+.weather-forcast{
+  padding-top: 7rem;
+}
+
+.forcast{
+  background-color: rgba(255, 255, 255, 0.2);
+  border-radius: 20px;
+  padding: 1rem;
+  display: flex;
+  margin-top: 0.5rem;
+  justify-content: space-between;
+}
+
+.forcast p{
+  font-size: 1.2rem;
+}
+
+/* <i class="fa-solid fa-snowflake"></i>
+
+
+
+
+
+ */

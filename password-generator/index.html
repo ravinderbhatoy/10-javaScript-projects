@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/206c908e75.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js" defer></script>
+    <title>Password Generator</title>
+  </head>
+  <body>
+    <div class="pw-container">
+      <h2>Password Generator</h2>
+      <div class="pw-header">
+        <div class="pw">
+          <input type="text" id="password">
+          <button id="copy-text"><i class="fa-regular fa-clipboard"></i></button>
+        </div>
+      </div>
+      <div class="pw-body">
+        <div class="form-control">
+          <label for="len">Password Length</label>
+          <input type="number" id="len" min="6" max="15" />
+        </div>
+        <div class="form-control">
+          <label for="upper">Contains UpperCase Letters</label>
+          <input type="checkbox" id="upper" />
+        </div>
+        <div class="form-control">
+          <label for="lower">Contains LowerCase Letters</label>
+          <input type="checkbox" id="lower" />
+        </div>
+        <div class="form-control">
+          <label for="number">Contains Numbers</label>
+          <input type="checkbox" id="number" />
+        </div>
+        <div class="form-control">
+          <label for="symbol">Contains Symbol</label>
+          <input type="checkbox" id="symbol" />
+        </div>
+      </div>
+      <button class="generate" id="generate">Generate</button>
+    </div>
+  </body>
+</html>
